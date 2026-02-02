@@ -196,9 +196,9 @@ ul li {
     margin-left: 6rem;
 }
 
-#about body {
+#about {
   min-height: 100vh;
-  scroll-behavior: smooth;
+  overflow: auto;
 }
 
 .other-skills {
