@@ -214,3 +214,14 @@ ul li {
     margin-left: 6rem;
     margin-top: 2rem;
 }
+
+#about-me {
+    margin: 5rem 0 2rem 0;
+    color: white;
+}
+
+#about-me:hover {
+    color: white;
+    transform: initial;
+    cursor: default;
+}
