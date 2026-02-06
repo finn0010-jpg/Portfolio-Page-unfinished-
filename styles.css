@@ -159,7 +159,7 @@ ul li {
     border-radius: 20%;
 }
 
-#javascript:hover, #html:hover, #css:hover, #react:hover, #github:hover {
+#javascript:hover, #html:hover, #css:hover, #react:hover, #github:hover, #contact-email:hover, #contact-frontendmentor:hover, #contact-github:hover, #contact-linkedin:hover, #contact-twitter:hover {
     transform: scale(1.2);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -224,4 +224,23 @@ ul li {
     color: white;
     transform: initial;
     cursor: default;
+}
+
+.contact-methods img {
+    width: 50%;   
+    border: 2px solid white;
+    border-radius: 20%;
+    padding: 1rem;
+    background-color: white;
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(3, 150px);
+    align-self: center;
+    justify-content: center;
+    margin-left: 6rem;
+    margin-top: 2rem;
+  
 }
