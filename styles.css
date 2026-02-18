@@ -244,3 +244,7 @@ ul li {
     margin-top: 2rem;
   
 }
+
+img {
+  border-radius: 20%;
+}
