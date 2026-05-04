@@ -17,19 +17,32 @@ body {
   font-family: 'Poppins', sans-serif;
   overflow: hidden;
   color: var(--raspberry-red);
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
+  background-color: var(--raspberry-red);
+  color: var(--deep-space-blue);
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
 h1:hover {
   color: white;
   cursor: default;
+  transition: color 0.3s ease;
 }
 
 .links ul {
@@ -39,7 +52,7 @@ h1:hover {
 }
 
 .links ul li a {
-  color: var(--raspberry-red);
+  color: var(--deep-space-blue);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -49,11 +62,53 @@ h1:hover {
   color: white;
 }
 
+.about {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--raspberry-red);
+  color: var(--deep-space-blue);
+  border-radius: 8px;
+}
 
+.projects {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--raspberry-red);
+  color: var(--deep-space-blue);
+  border-radius: 8px;
+}
 
+.projects ul {
+  list-style: none;
+}
 
+.projects ul a {
+  color: var(--deep-space-blue);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.projects ul a:hover {
+  color: white;
+}
 
 .contacts img {
   width: 40px;
   height: 40px;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contacts img:hover {
+  transform: scale(1.1);
+}
+
+.contacts {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--raspberry-red);
+  color: var(--deep-space-blue);
+  border-radius: 8px;
 }
